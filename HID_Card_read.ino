@@ -118,7 +118,23 @@ void loop()
     }
     else {
      // you can add other formats if you want!
+
+      
+
+     
       Serial.println("Unable to decode."); 
+
+       for (i=0; i<40; i++){
+
+                  Serial.print(databits[i]);
+
+
+        
+       }
+
+      Serial.println("Unable to decode."); 
+
+      
     }
  
      // cleanup and get ready for the next card
